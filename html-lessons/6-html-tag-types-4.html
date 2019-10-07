@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <figure>
+        <img src="http://placecorgi.com/400/250" alt="corgi dog">
+        <!-- <img src="http://placecorgi.com/400/250" alt="corgi dog"> -->
+        <figcaption>
+            <h4>Source: placecorgi.com</h4>
+        </figcaption>
+    </figure>
+    <img src="http://placeimg.com/200/200/tech" alt="random tech image">
+    <img src="http://placeimg.com/250/200/tech" alt="random tech image">
+    <img src="http://placeimg.com/220/200/tech" alt="random tech image">
+    <figure>
+        <figcaption>Get browser details using <code>navigator</code>.</figcaption>
+        <code>
+          function HelloWorld() {
+            var txt;
+            txt = "Hello"
+            txt += "World"
+            console.log(txt);
+          }
+        </code>
+    </figure>
+
+    <figure>
+        <figcaption>Audio Sample</figcaption>
+        <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </figure>
+
+    <figure>
+        <figcaption>Video Sample</figcaption>
+        <video controls width="300">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+    </figure>
+
+    <figure>
+        <picture>
+            <source srcset="http://placecorgi.com/200/200" media="(max-width: 639px)">
+            <source srcset="http://placecorgi.com/500/250" media="(min-width: 640px) and (max-width: 1023px)">
+            <source srcset="http://placecorgi.com/900/480" media="(min-width: 1024px)">
+            <img src="http://placecorgi.com/900/480" alt="My image">
+        </picture>
+    </figure>
+</body>
+
+</html>
